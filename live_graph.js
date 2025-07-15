@@ -33,6 +33,7 @@
 @@ .. @@
    setupEventListeners() {
      document.getElementById('live-connect-btn').onclick = () => this.toggleSerial();
+   }
 -    document.getElementById('live-record-btn').onclick = () => this.toggleRecording();
 -    document.getElementById('set-output-file').onclick = () => this.setOutputFile();
 -    document.getElementById('setup-drive').onclick = () => driveIntegration.showDriveSetupDialog();
